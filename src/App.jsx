@@ -1,12 +1,11 @@
 import "./App.css";
-import { Navbar, Blogs, Footer } from "./components";
+import { Homepage, BlogContentPage } from "./pages";
 
 function App() {
   return (
     <>
-      <Navbar />
-      <Blogs />
-      <Footer />
+      {/* <Homepage /> */}
+      <BlogContentPage />
     </>
   );
 }
