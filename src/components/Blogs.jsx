@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Blogs() {
   const blogs = [
@@ -8,6 +9,35 @@ function Blogs() {
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, labore eaque. Delectus animi molestias ad placeat consequatur reprehenderit cum laudantium!",
       coverImg:
         "https://s3-alpha.figma.com/hub/file/667619808/fd9075c7-5a78-4ecd-a98a-710190b568f6-cover.png",
+      content: `Intro to web3 Day 1: Intro to web3 what is web3 To put it simply,
+        web3 is Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, est voluptas fugiat 
+        odio placeat hic natus omnis, facilis blanditiis provident sint, recusandae nam. A tenetur corrupti 
+        animi quo fugiat fuga eveniet porro cupiditate nostrum. Eligendi eveniet velit exercitationem 
+        provident consectetur, sed vero aspernatur adipisci. Laudantium placeat repellat illo magnam quis.
+        Intro to web3 Day 1: Intro to web3 what is web3 To put it simply,
+        web3 is Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, est voluptas fugiat 
+        odio placeat hic natus omnis, facilis blanditiis provident sint, recusandae nam. A tenetur corrupti 
+        animi quo fugiat fuga eveniet porro cupiditate nostrum. Eligendi eveniet velit exercitationem 
+        provident consectetur, sed vero aspernatur adipisci. Laudantium placeat repellat illo magnam quis.
+        Intro to web3 Day 1: Intro to web3 what is web3 To put it simply,
+        web3 is Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, est voluptas fugiat 
+        odio placeat hic natus omnis, facilis blanditiis provident sint, recusandae nam. A tenetur corrupti 
+        animi quo fugiat fuga eveniet porro cupiditate nostrum. Eligendi eveniet velit exercitationem 
+        provident consectetur, sed vero aspernatur adipisci. Laudantium placeat repellat illo magnam quis.
+        Intro to web3 Day 1: Intro to web3 what is web3 To put it simply,
+        web3 is Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, est voluptas fugiat 
+        odio placeat hic natus omnis, facilis blanditiis provident sint, recusandae nam. A tenetur corrupti 
+        animi quo fugiat fuga eveniet porro cupiditate nostrum. Eligendi eveniet velit exercitationem 
+        provident consectetur, sed vero aspernatur adipisci. Laudantium placeat repellat illo magnam quis.
+        Intro to web3 Day 1: Intro to web3 what is web3 To put it simply,
+        web3 is Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, est voluptas fugiat 
+        odio placeat hic natus omnis, facilis blanditiis provident sint, recusandae nam. A tenetur corrupti 
+        animi quo fugiat fuga eveniet porro cupiditate nostrum. Eligendi eveniet velit exercitationem 
+        provident consectetur, sed vero aspernatur adipisci. Laudantium placeat repellat illo magnam quis.`,
+      authorName: "John Snow",
+      authorImg:
+        "https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      authorDesc: "Web Developer",
     },
     {
       id: 2,
@@ -15,6 +45,35 @@ function Blogs() {
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, labore eaque. Delectus animi molestias ad placeat consequatur reprehenderit cum laudantium!",
       coverImg:
         "https://s3-alpha.figma.com/hub/file/667619808/fd9075c7-5a78-4ecd-a98a-710190b568f6-cover.png",
+      content: `Intro to web3 Day 1: Intro to web3 what is web3 To put it simply,
+        web3 is Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, est voluptas fugiat 
+        odio placeat hic natus omnis, facilis blanditiis provident sint, recusandae nam. A tenetur corrupti 
+        animi quo fugiat fuga eveniet porro cupiditate nostrum. Eligendi eveniet velit exercitationem 
+        provident consectetur, sed vero aspernatur adipisci. Laudantium placeat repellat illo magnam quis.
+        Intro to web3 Day 1: Intro to web3 what is web3 To put it simply,
+        web3 is Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, est voluptas fugiat 
+        odio placeat hic natus omnis, facilis blanditiis provident sint, recusandae nam. A tenetur corrupti 
+        animi quo fugiat fuga eveniet porro cupiditate nostrum. Eligendi eveniet velit exercitationem 
+        provident consectetur, sed vero aspernatur adipisci. Laudantium placeat repellat illo magnam quis.
+        Intro to web3 Day 1: Intro to web3 what is web3 To put it simply,
+        web3 is Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, est voluptas fugiat 
+        odio placeat hic natus omnis, facilis blanditiis provident sint, recusandae nam. A tenetur corrupti 
+        animi quo fugiat fuga eveniet porro cupiditate nostrum. Eligendi eveniet velit exercitationem 
+        provident consectetur, sed vero aspernatur adipisci. Laudantium placeat repellat illo magnam quis.
+        Intro to web3 Day 1: Intro to web3 what is web3 To put it simply,
+        web3 is Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, est voluptas fugiat 
+        odio placeat hic natus omnis, facilis blanditiis provident sint, recusandae nam. A tenetur corrupti 
+        animi quo fugiat fuga eveniet porro cupiditate nostrum. Eligendi eveniet velit exercitationem 
+        provident consectetur, sed vero aspernatur adipisci. Laudantium placeat repellat illo magnam quis.
+        Intro to web3 Day 1: Intro to web3 what is web3 To put it simply,
+        web3 is Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, est voluptas fugiat 
+        odio placeat hic natus omnis, facilis blanditiis provident sint, recusandae nam. A tenetur corrupti 
+        animi quo fugiat fuga eveniet porro cupiditate nostrum. Eligendi eveniet velit exercitationem 
+        provident consectetur, sed vero aspernatur adipisci. Laudantium placeat repellat illo magnam quis.`,
+      authorName: "John Snow",
+      authorImg:
+        "https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      authorDesc: "Web Developer",
     },
     {
       id: 3,
@@ -22,6 +81,35 @@ function Blogs() {
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, labore eaque. Delectus animi molestias ad placeat consequatur reprehenderit cum laudantium!",
       coverImg:
         "https://s3-alpha.figma.com/hub/file/667619808/fd9075c7-5a78-4ecd-a98a-710190b568f6-cover.png",
+      content: `Intro to web3 Day 1: Intro to web3 what is web3 To put it simply,
+        web3 is Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, est voluptas fugiat 
+        odio placeat hic natus omnis, facilis blanditiis provident sint, recusandae nam. A tenetur corrupti 
+        animi quo fugiat fuga eveniet porro cupiditate nostrum. Eligendi eveniet velit exercitationem 
+        provident consectetur, sed vero aspernatur adipisci. Laudantium placeat repellat illo magnam quis.
+        Intro to web3 Day 1: Intro to web3 what is web3 To put it simply,
+        web3 is Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, est voluptas fugiat 
+        odio placeat hic natus omnis, facilis blanditiis provident sint, recusandae nam. A tenetur corrupti 
+        animi quo fugiat fuga eveniet porro cupiditate nostrum. Eligendi eveniet velit exercitationem 
+        provident consectetur, sed vero aspernatur adipisci. Laudantium placeat repellat illo magnam quis.
+        Intro to web3 Day 1: Intro to web3 what is web3 To put it simply,
+        web3 is Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, est voluptas fugiat 
+        odio placeat hic natus omnis, facilis blanditiis provident sint, recusandae nam. A tenetur corrupti 
+        animi quo fugiat fuga eveniet porro cupiditate nostrum. Eligendi eveniet velit exercitationem 
+        provident consectetur, sed vero aspernatur adipisci. Laudantium placeat repellat illo magnam quis.
+        Intro to web3 Day 1: Intro to web3 what is web3 To put it simply,
+        web3 is Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, est voluptas fugiat 
+        odio placeat hic natus omnis, facilis blanditiis provident sint, recusandae nam. A tenetur corrupti 
+        animi quo fugiat fuga eveniet porro cupiditate nostrum. Eligendi eveniet velit exercitationem 
+        provident consectetur, sed vero aspernatur adipisci. Laudantium placeat repellat illo magnam quis.
+        Intro to web3 Day 1: Intro to web3 what is web3 To put it simply,
+        web3 is Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, est voluptas fugiat 
+        odio placeat hic natus omnis, facilis blanditiis provident sint, recusandae nam. A tenetur corrupti 
+        animi quo fugiat fuga eveniet porro cupiditate nostrum. Eligendi eveniet velit exercitationem 
+        provident consectetur, sed vero aspernatur adipisci. Laudantium placeat repellat illo magnam quis.`,
+      authorName: "John Snow",
+      authorImg:
+        "https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      authorDesc: "Web Developer",
     },
   ];
 
@@ -32,20 +120,22 @@ function Blogs() {
           <div className="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-2 ss:grid-cols-1 gap-8 px-4 text-black">
             {/* Product Card */}
             {blogs.map((blog) => (
-              <div
-                key={Math.random()}
-                className="bg-white rounded-xl overflow-hidden drop-shadow-md"
-              >
-                <img
-                  src={blog.coverImg}
-                  alt="Figma Logo"
-                  className="h-56 w-full object-cover"
-                />
-                <div className="p-8 ">
-                  <h3 className="font-bold text-2xl my-1">{blog.title}</h3>
-                  <p className="text-gray-600 text-xl">{blog.desc}</p>
+              <Link to={`/blog/${blog.id}`}>
+                <div
+                  key={Math.random()}
+                  className="bg-white rounded-xl overflow-hidden drop-shadow-md"
+                >
+                  <img
+                    src={blog.coverImg}
+                    alt="Figma Logo"
+                    className="h-56 w-full object-cover"
+                  />
+                  <div className="p-8 ">
+                    <h3 className="font-bold text-2xl my-1">{blog.title}</h3>
+                    <p className="text-gray-600 text-xl">{blog.desc}</p>
+                  </div>
                 </div>
-              </div>
+              </Link>
             ))}
           </div>
         </div>
