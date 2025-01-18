@@ -1,8 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-function Blogs() {
-  const blogs = [
+function Blogs({ blogs }) {
+  const blogs1 = [
     {
       id: 1,
       title: "Blog 1",
@@ -119,7 +119,29 @@ function Blogs() {
         <div className="max-w-[1240px] mx-auto">
           <div className="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-2 ss:grid-cols-1 gap-8 px-4 text-black">
             {/* Product Card */}
-            {blogs.map((blog) => (
+
+            {blogs.data.map((blog) => (
+              <Link to={`/blog/${blog.id}`}>
+                <div
+                  key={Math.random()}
+                  className="bg-white rounded-xl overflow-hidden drop-shadow-md"
+                >
+                  <img
+                    src={`http://localhost:1337${blog.coverImg.url}`}
+                    alt="Figma Logo"
+                    className="h-56 w-full object-cover"
+                  />
+                  <div className="p-8 ">
+                    <h3 className="font-bold text-2xl my-1">
+                      {blog.BlogTitle}
+                    </h3>
+                    <p className="text-gray-600 text-xl">{blog.blogDesc}</p>
+                  </div>
+                </div>
+              </Link>
+            ))}
+
+            {/* {blogs1.map((blog) => (
               <Link to={`/blog/${blog.id}`}>
                 <div
                   key={Math.random()}
@@ -136,7 +158,7 @@ function Blogs() {
                   </div>
                 </div>
               </Link>
-            ))}
+            ))} */}
           </div>
         </div>
       </div>

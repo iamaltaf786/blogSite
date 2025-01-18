@@ -1,12 +1,12 @@
 import React from "react";
 import { Navbar, Blogs, Footer } from "../components";
 
-function Homepage() {
+function Homepage({ blogs }) {
   return (
     <>
       <div>
         <Navbar />
-        <Blogs />
+        <Blogs blogs={blogs ? blogs : ""} />
         <Footer />
       </div>
     </>

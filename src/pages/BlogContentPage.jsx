@@ -1,12 +1,12 @@
 import React from "react";
 import { Navbar, Footer, BlogContent } from "../components";
 
-function BlogContentPage() {
+function BlogContentPage({ blogs }) {
   return (
     <>
       <div>
         <Navbar />
-        <BlogContent />
+        <BlogContent blogs={blogs ? blogs : ""} />
         <Footer />
       </div>
     </>
