@@ -121,7 +121,7 @@ function Blogs({ blogs }) {
             {/* Product Card */}
 
             {blogs.data.map((blog) => (
-              <Link to={`/blog/${blog.id}`}>
+              <Link to={`/blog/${blog.id}`} key={blog.id}>
                 <div
                   key={Math.random()}
                   className="bg-white rounded-xl overflow-hidden drop-shadow-md"
