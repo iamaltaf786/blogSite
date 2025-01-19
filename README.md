@@ -7,6 +7,8 @@ This is a blog application built using React, Vite, and Strapi.io as the backend
   <img src="./src/assets/blog.png" alt="Blog Page" style="width: 45%;">
 </
 
+<br>
+
 ## Features
 
 - **React-Vite Frontend**: A fast and efficient frontend built with React and Vite for quick development and hot-reloading.
