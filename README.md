@@ -2,6 +2,11 @@
 
 This is a blog application built using React, Vite, and Strapi.io as the backend SaaS platform. The app leverages React Router for navigation and Strapi as a headless CMS to manage and serve blog content.
 
+<div style="display: flex; gap: 10px; flex-wrap: wrap;">
+  <img src="./src/assets/homepage.png" alt="Homepage" style="width: 45%;">
+  <img src="./src/assets/blog.png" alt="Blog Page" style="width: 45%;">
+</
+
 ## Features
 
 - **React-Vite Frontend**: A fast and efficient frontend built with React and Vite for quick development and hot-reloading.
